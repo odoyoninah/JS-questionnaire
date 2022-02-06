@@ -20,6 +20,8 @@ body{
     left: 440px;
     top: 682px;
     background: #2D2323;
+    text-align: center;
+    
 }
 
 .heading{
@@ -29,4 +31,5 @@ body{
     left: 76px;
     top: 4px;
     background: #2D2323;
+    text-align: center;
 }
