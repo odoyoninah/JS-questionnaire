@@ -1,0 +1,14 @@
+body{
+    padding: 10px;
+    margin: 10px;
+}
+
+.questionnaire{
+    position: absolute;
+    width: 1359px;
+    height: 1852px;
+    left: 30px;
+    top: 189px;
+    background: #500B0B;
+
+}
