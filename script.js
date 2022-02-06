@@ -19,7 +19,14 @@ if (correctAnswers==="Anonymous function"){score ++};
 userform.style.display ="none"
 
 if (score >= 4) {
-    empty.
+    empty.textContent= "Excellent" + Math.trunc (score/5*100) + "%"
+
+}else if(score >= 2){
+    empty.textContent= "fair" + Math.trunc (score/5*100 )+ "%"
+
+}else{
+    empty.textContent= "work harder" + Math.trunc (score/5*100) +"%"
+}
 }
 
 // var userData = new FormData(userForm);
