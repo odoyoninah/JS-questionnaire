@@ -12,3 +12,21 @@ body{
     background: #500B0B;
 
 }
+
+.submit{
+    position: absolute;
+    width: 371px;
+    height: 100px;
+    left: 440px;
+    top: 682px;
+    background: #2D2323;
+}
+
+.heading{
+    position: absolute;
+    width: 1306px;
+    height: 185px;
+    left: 76px;
+    top: 4px;
+    background: #2D2323;
+}
