@@ -9,11 +9,18 @@ function submitted(){
         functions:"Anonymous function",}
 
 
-var userForm = document.getElementById("userForm");
+var empty= document.getElementById("empty");
+if (correctAnswers==="letters"){score ++};
+if (correctAnswers==="percentage"){score ++};
+if (correctAnswers==="Strictly equality"){score ++};
+if (correctAnswers==="Must have quotation marks"){score ++};
+if (correctAnswers==="Anonymous function"){score ++};
 
+userform.style.display ="none"
 
-
-
+if (score >= 4) {
+    empty.
+}
 
 // var userData = new FormData(userForm);
 // compareData(userData);
@@ -41,4 +48,4 @@ var userForm = document.getElementById("userForm");
 // let userScore = document.querySelector(".score");
 // userScore.textContent = score;
 // userScore.getElementsByClassName.color = "red";
-// userForm .style.display = "none";
+// userForm .style.display = "none";}
