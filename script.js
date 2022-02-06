@@ -25,7 +25,7 @@ if (score >= 4) {
     empty.textContent= "fair" + Math.trunc (score/5*100 )+ "%"
 
 }else{
-    empty.textContent= "work harder" + Math.trunc (score/5*100) +"%"
+    empty.textContent= "you can do better" + Math.trunc (score/5*100) +"%"
 }
 }
 
