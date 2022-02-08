@@ -1,4 +1,4 @@
-const btn = document.getElementById("button")
+const btn = document.getElementById("empty")
 
 btn.addEventListener("click", (e)=> {
   e.preventDefault()
