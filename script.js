@@ -1,4 +1,16 @@
+const btn = document.getElementById("button")
+
+btn.addEventListener("click", (e)=> {
+  e.preventDefault()
+  score()
+})
+
+
+
+
+
 function submitted(){
+
     var score = 0;
 
     var correctAnswers = {
