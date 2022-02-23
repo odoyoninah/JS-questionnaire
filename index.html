@@ -8,87 +8,90 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="heading">
+    <h1>
+        Quiz
+    </h1>
+</div>
    
    
 
-<div class="heading">
-    <h2 >
+<!-- <div class="heading">
+    <h2>
         JAVA SCRIPT QUIZKAL 
         
     </h2> 
-</div>
+</div> -->
 <div class="questionnaire">
-<div class="data type">
-    <form name="userForm" id="userForm">
-<h3>
-    Which of the following is not a java script data type?
-</h3>
-<input type="radio" name="data type" value  ="String">String
-<input type="radio" name="data type" value  ="Boolean">Boolean
-<input type="radio" name="data type" value  ="Letters">Letters
-<input type="radio" name="data type" value  ="Numbers">Numbers
-    
-</div>
+    <div class="datatype">
+        <form name="userForm" onsubmit="submitted()" id="userForm">
+        <h3>
+            Which of the following is not a java script data type?
+        </h3>
+        <input type="radio" name="data type" value  ="String">String
+        <input type="radio" name="data type" value  ="Boolean">Boolean
+        <input type="radio" name="data type" value  ="Letters">Letters
+        <input type="radio" name="data type" value  ="Numbers">Numbers
+            
+    </div>
 
-<div class="Operator">
+    <div class="Operator">
     
         <h3>
             Which operator is also called modulus operator?
         </h3>
-        <input type="radio" name="modulus" value  ="Division">Division
-<input type="radio" name="modulus" value  ="Multiplication">Multiplication
-<input type="radio" name="modulus" value  ="Percentage">Percentage
-<input type="radio" name="modulus" value  ="Addition">Addition
+        <input type="radio" name="modulus" value ="Division">Division
+        <input type="radio" name="modulus" value="Multiplication">Multiplication
+        <input type="radio" name="modulus" value="percentage">Percentage
+        <input type="radio" name="modulus" value="Addition">Addition
 
     
-</div>
+    </div>
 
-<div class="equals">
-    
-<h3>
-    What does === in operators do?
-</h3>
-<input type="radio" name="equals" value  ="Is the same as ==">Is the same as ==
-<input type="radio" name="equals" value  ="Strict equality">Strict equality
-<input type="radio" name="equals" value  ="Differences">Differences
-<input type="radio" name="equals" value  ="Something is equal">Something is equal
+    <div class="equals">
+        
+        <h3>
+            What does === in operators do?
+        </h3>
+        <input type="radio" name="equals" value  ="Is the same as ==">Is the same as ==
+        <input type="radio" name="equals" value  ="Strict equality">Strict equality
+        <input type="radio" name="equals" value  ="Differences">Differences
+        <input type="radio" name="equals" value  ="Something is equal">Something is equal
 
-</div>
+    </div>
 
-<div class="rules">
-    
+    <div class="rules">
         <h3>
             Which of the following is not a rule used when naming variables in J.S?
         </h3>
         <input type="radio" name="rules" value  ="Must start with a lowercase letter">Must start with a lowercase letter
-<input type="radio" name="rules" value  ="Must not contain spaces">Must not contain spaces
-<input type="radio" name="rules" value  ="Must have brackets">Must have brackets
+        <input type="radio" name="rules" value  ="Must not contain spaces">Must not contain spaces
+        <input type="radio" name="rules" value  ="Must have brackets">Must have brackets
+    </div>
 
-
-    
-</div>
-
-<div class="functions">
-    
+    <div class="functions">
+        
         <h3>
             Which function is this,const y=function(x,y){return x*y};
             let a=b(1,2); ?
         </h3>
         <input type="radio" name="equals" value  ="Anonymous function">Anonymous function
-<input type="radio" name="equals" value  ="The function constructor">The function constructor
-<input type="radio" name="equals" value  ="Function Hoisting">Function Hoisting
-<input type="radio" name="equals" value  ="Self-Invoking functions">Self-Invoking functions
-    
+        <input type="radio" name="equals" value  ="The function constructor">The function constructor
+        <input type="radio" name="equals" value  ="Function Hoisting">Function Hoisting
+        <input type="radio" name="equals" value  ="Self-Invoking functions">Self-Invoking functions
+    </div>
 </div>
-</div>
+<!-- <br><hr> -->
+
 
 <div class="submit">
-<input type="button" value="SUBMIT" id="button" onclick="submitted()">
+    <button type="submit" id="button">Submit</button>
 </div>
 
 </form>
+    <!-- <br> -->
 <p id="empty">
-    
+    EMPTY
 </p>
 
 <script src="script.js"></script>

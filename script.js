@@ -5,13 +5,17 @@ btn.addEventListener("click", (e)=> {
   score()
 })
 
-
-
+var form = document.getElementById("userForm");
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('submit', handleForm);
 
 
 function submitted(){
 
     var score = 0;
+
+    var answer = document.querySelector('input[name="modulus"]:checked').value;
+    console.log(answer);
 
     var correctAnswers = {
         datatype:"letters",
@@ -21,14 +25,17 @@ function submitted(){
         functions:"Anonymous function",}
 
 
-var empty= document.getElementById("empty");
-if (correctAnswers==="letters"){score ++};
-if (correctAnswers==="percentage"){score ++};
-if (correctAnswers==="Strictly equality"){score ++};
-if (correctAnswers==="Must have quotation marks"){score ++};
-if (correctAnswers==="Anonymous function"){score ++};
 
-userform.style.display ="none"
+// if (correctAnswers===answer){score ++};
+if (answer==="percentage"){
+    score++
+    empty= document.getElementById("empty").innerHTML= score;
+}
+// if (correctAnswers==="Strictly equality"){score ++};
+// if (correctAnswers==="Must have quotation marks"){score ++};
+// if (correctAnswers==="Anonymous function"){score ++};
+
+// userform.style.display ="none"
 
 if (score >= 4) {
     empty.textContent= "Excellent" + Math.trunc (score/5*100) + "%"

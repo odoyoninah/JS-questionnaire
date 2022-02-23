@@ -1,35 +1,51 @@
 body{
-    padding: 10px;
-    margin: 10px;
+    /* padding: 0; */
+    /* margin: 0; */
 }
 
 .questionnaire{
-    position: absolute;
-    width: 1359px;
+    /* position: absolute; */
+    /* width: 1359px;
     height: 1852px;
     left: 30px;
-    top: 189px;
+    top: 189px; */
     background: #500B0B;
+    margin: 3%;
 
 }
 
 .submit{
-    position: absolute;
-    width: 371px;
+    /* position: absolute; */
+    /* width: 371px;
     height: 150px;
     left: 440px;
-    top: 680px;
+    top: 680px; */
     background: #2D2323;
     text-align: center;
     
 }
 
 .heading{
-    position: absolute;
-    width: 1306px;
+    /* position: absolute; */
+    /* width: 1306px;
     height: 185px;
     left: 76px;
-    top: 4px;
+    top: 4px; */
     background: #2D2323;
     text-align: center;
+    color: white;
 }
+
+form, 
+.Operator
+.datatype
+.equals
+.rules
+.functions{
+    margin: 2%;
+} 
+
+
+/* .Operator{
+    margin: 2%;
+} */
